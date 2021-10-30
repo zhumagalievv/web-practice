@@ -1,0 +1,77 @@
+.testimonials h1{
+  text-align: center;
+  margin: 100px;
+  font-size: 40px;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  color: hsl(210, 4%, 67%);
+}
+.container-m{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  text-align: center;
+}
+.container-m img{
+  border-radius: 100px;
+  width: 100px;
+  margin: 0px 0px 75px 0px;
+}
+
+.container-m div p:nth-child(2){
+  margin: 30px 20px;
+}
+.container-m div p{
+  margin: 10px;
+  font-family: 'Barlow';
+  color: hsl(213, 9%, 39%);
+}
+.container-m div p:nth-child(3){
+  color: unset;
+  font-family: 'Fraunces', serif;
+}
+.container-m div p:nth-child(4){
+  font-size: 14px;
+  color: hsl(210, 4%, 67%);
+  margin: 0px 0px 100px 0px;
+}
+.gallery{
+  display: flex;
+}
+.gallery div{
+  width: 25%;
+}
+.gallery div img{
+  width: 100%;
+  height: 100%;
+}
+footer{
+  background-color: hsl(168, 30%, 65%);
+}
+footer .logo{
+  text-align: center;
+  padding: 40px;
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links div{
+  margin: 0px 10px;
+}
+.footer-links div a{
+  color: hsl(168, 34%, 30%);
+}
+.socials{
+  display: flex;
+  justify-content: center;
+  padding: 75px 0px 50px 0px;
+}
+.socials div{
+  margin: 0px 10px;
+}
+a{
+  display: block;
+  height: 100%;
+}
