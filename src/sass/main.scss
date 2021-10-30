@@ -4,6 +4,70 @@
     list-style-type: none;
     text-decoration: none;
 }
-body{
-    background: orange;
+
+.wrapper{
+    .main-layout{
+        height: 100vh;
+        background-image: url(../media/static/image-header.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 15px 40px;
+
+        .header{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            .menu-bar ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                min-height: 70px;
+                min-width: 400px;
+                li{
+                    // cursor: pointer;
+                    height: 40px;
+                    width: 60px;
+                    
+                    line-height: 40px;
+                    a{
+                        font-size: 20px;
+                        color: white;
+                    }
+                    &:last-child{
+                        background: white;
+                        border-radius: 30px;
+                        width: 120px;
+                        text-align: center;
+                        cursor: pointer;
+                        transition: 0.5s;
+                        a{
+                            color: black;
+                        }
+                    }
+                    &:last-child:hover{
+                        background: rgb(255, 241, 223);
+                    }
+                }
+            }
+
+        }
+        .main-layout-content{
+            margin-top: 12.5%;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 75px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img{
+                margin-top: 65px;
+            }
+        }
+
+    }
 }
