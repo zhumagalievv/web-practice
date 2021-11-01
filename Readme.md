@@ -50,8 +50,6 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
 https://drive.google.com/file/d/1FQ3pVLgAqr4EM-oNelampmuFImAzrnYI/view?usp=sharing
 
 ### Links
